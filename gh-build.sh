@@ -15,6 +15,6 @@ printf >configuration "%s\n" \
 	"Maintainer: Stephane Tsana <stephanetse@gmail.com>" \
 	"Depends: $deps" \
 	"Architecture: all" \
-	"Description: System core standard metapackage for Kaytime."
+	"Description: System core standard meta package for Kaytime."
 
 equivs-build configuration
