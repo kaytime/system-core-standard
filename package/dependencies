@@ -1,0 +1,30 @@
+# Comments start with a '#'.
+# Empty lines are ignored.
+
+#    = Kaytime OS Minimal System =
+
+system-core-minimal
+
+#    = Kaytime OS Standard System =
+
+apparmor
+cpio
+dhcpcd5
+dmidecode
+dnsutils
+file
+ifupdown
+iptables
+iputils-tracepath
+irqbalance
+lshw
+lsof
+media-types
+mokutil
+pciutils
+strace
+tcpdump
+time
+usbmuxd
+usbutils
+user-setup
