@@ -1,6 +1,6 @@
-# Nitrux Standard Meta package [![Build Status](https://travis-ci.org/Nitrux/nitrux-standard.svg?branch=master)](https://travis-ci.org/Nitrux/nitrux-standard)
+# Kaytime Standard Meta package [![PackageCloud.](https://github.com/kaytime/system-core-standard/actions/workflows/build.yml/badge.svg)](https://github.com/kaytime/system-core-standard/actions/workflows/build.yml)
 
-This repository contains the source to create the `nitrux-standard` metapackage.
+This repository contains the source to create the `system-core-standard` metapackage.
 
 # Issues
 
