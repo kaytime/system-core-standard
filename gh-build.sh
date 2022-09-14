@@ -4,14 +4,13 @@ apt-get --yes update
 apt-get --yes install wget equivs curl git
 
 deps=$(sed -e '/^#.*$/d; /^$/d; /^\s*$/d' package/dependencies | paste -sd ,)
-git_commit=$(git rev-parse --short HEAD)
 
 printf >configuration "%s\n" \
 	"Section: misc" \
 	"Priority: optional" \
 	"Homepage: https://kaytime.github.io" \
 	"Package: system-core-standard" \
-	"Version: $PROJECT_VERSION" \
+	"Version: 0.1.0+alpha" \
 	"Maintainer: Stephane Tsana <stephanetse@gmail.com>" \
 	"Depends: $deps" \
 	"Architecture: all" \
